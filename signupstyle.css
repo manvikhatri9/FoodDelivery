@@ -1,0 +1,80 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.signup-box{
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login-box{
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type='button']{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(99, 159, 248);
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+input[type='button']:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.para-2{
+    text-align: left;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+
+
